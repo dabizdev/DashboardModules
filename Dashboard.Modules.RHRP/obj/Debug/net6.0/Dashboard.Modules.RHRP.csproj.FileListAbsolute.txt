@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\QTC\DashboardModules\Dashboard.Modules.RHRP\bin\Debug\net6.0\Dashboard.Modules.RHRP.deps.json
+C:\Users\Admin\Documents\QTC\DashboardModules\Dashboard.Modules.RHRP\bin\Debug\net6.0\Dashboard.Modules.RHRP.dll
+C:\Users\Admin\Documents\QTC\DashboardModules\Dashboard.Modules.RHRP\bin\Debug\net6.0\Dashboard.Modules.RHRP.pdb
+C:\Users\Admin\Documents\QTC\DashboardModules\Dashboard.Modules.RHRP\bin\Debug\net6.0\Dashboard.Common.dll
+C:\Users\Admin\Documents\QTC\DashboardModules\Dashboard.Modules.RHRP\bin\Debug\net6.0\Dashboard.Common.pdb
+C:\Users\Admin\Documents\QTC\DashboardModules\Dashboard.Modules.RHRP\obj\Debug\net6.0\Dashboard.Modules.RHRP.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\QTC\DashboardModules\Dashboard.Modules.RHRP\obj\Debug\net6.0\Dashboard.Modules.RHRP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\QTC\DashboardModules\Dashboard.Modules.RHRP\obj\Debug\net6.0\Dashboard.Modules.RHRP.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\QTC\DashboardModules\Dashboard.Modules.RHRP\obj\Debug\net6.0\Dashboard.Modules.RHRP.AssemblyInfo.cs
+C:\Users\Admin\Documents\QTC\DashboardModules\Dashboard.Modules.RHRP\obj\Debug\net6.0\Dashboard.Modules.RHRP.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\QTC\DashboardModules\Dashboard.Modules.RHRP\obj\Debug\net6.0\Dashboard.Modules.RHRP.csproj.CopyComplete
+C:\Users\Admin\Documents\QTC\DashboardModules\Dashboard.Modules.RHRP\obj\Debug\net6.0\Dashboard.Modules.RHRP.dll
+C:\Users\Admin\Documents\QTC\DashboardModules\Dashboard.Modules.RHRP\obj\Debug\net6.0\refint\Dashboard.Modules.RHRP.dll
+C:\Users\Admin\Documents\QTC\DashboardModules\Dashboard.Modules.RHRP\obj\Debug\net6.0\Dashboard.Modules.RHRP.pdb
+C:\Users\Admin\Documents\QTC\DashboardModules\Dashboard.Modules.RHRP\obj\Debug\net6.0\ref\Dashboard.Modules.RHRP.dll
