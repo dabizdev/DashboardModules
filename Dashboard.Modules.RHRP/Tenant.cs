@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Dashboard.Common.Interfaces;
-using Dashboard.Common.Models;
+using Dashboard.Common.DataModels;
 using Dashboard.Common.Modules;
 using Dashboard.Common.Options;
 using Dashboard.Common.Delegates;
@@ -49,7 +49,7 @@ namespace Dashboard.Modules.RHRP
             //services.AddScoped<ILayout, LayoutManager>();
 
             services.Scan(scan => scan.FromCallingAssembly()
-                .AddClasses(c => c.AssignableTo<IErrorTypeModule>(), publicOnly: true)
+                .AddClasses(c => c.AssignableTo<IGetData>(), publicOnly: true)
                 .AsImplementedInterfaces()
                 .WithTransientLifetime());
 
@@ -57,9 +57,9 @@ namespace Dashboard.Modules.RHRP
             return services.BuildServiceProvider();
         }
 
-        public IErrorTypeModule GetErrorTypeProcessor()
+        public IGetData GetData()
         {
-            var handler = _provider.GetService<IErrorTypeModule>();
+            var handler = _provider.GetService<IGetData>();
             return handler;
         }
     }
