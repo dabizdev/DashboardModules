@@ -9,6 +9,6 @@ namespace Dashboard.Common.Interfaces
 {
     public interface IGetData
     {
-        List<Errors> GetData();
+        List<Errors> GetData(string integrationPoint);
     }
 }
