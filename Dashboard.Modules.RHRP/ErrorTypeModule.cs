@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Dashboard.Common.Interfaces;
-using Dashboard.Common.Models;
+using Dashboard.Common.DataModels;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore.Internal;
 
@@ -15,6 +15,9 @@ namespace Dashboard.Modules.RHRP
     public class ErrorTypeModule : IGetData
     {
         public SqlConnection connection = new SqlConnection("Server=tcp:qtcstudents2022.database.windows.net,1433;Initial Catalog=DashboardDatabase;Persist Security Info=False;User ID=qtcUser;Password=#Classof2023;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+        
+
+        string IGetData.Name { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public List<Errors> GetData(string integrationPoint)
         {

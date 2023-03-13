@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Dashboard.Common.Interfaces;
-using Dashboard.Common.Models;
+using Dashboard.Common.DataModels;
 using Dashboard.Common.Modules;
 using Dashboard.Common.Options;
 using Dashboard.Common.Delegates;
