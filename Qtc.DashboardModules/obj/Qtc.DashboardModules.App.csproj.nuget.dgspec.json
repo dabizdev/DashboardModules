@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\QTC\\DashboardModules\\Qtc.DashboardModules\\Qtc.DashboardModules.App.csproj": {}
+    "C:\\Users\\Jonathan\\source\\repos\\DashboardModules\\Qtc.DashboardModules\\Qtc.DashboardModules.App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\QTC\\DashboardModules\\Qtc.DashboardModules\\Qtc.DashboardModules.App.csproj": {
+    "C:\\Users\\Jonathan\\source\\repos\\DashboardModules\\Qtc.DashboardModules\\Qtc.DashboardModules.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\QTC\\DashboardModules\\Qtc.DashboardModules\\Qtc.DashboardModules.App.csproj",
+        "projectUniqueName": "C:\\Users\\Jonathan\\source\\repos\\DashboardModules\\Qtc.DashboardModules\\Qtc.DashboardModules.App.csproj",
         "projectName": "Qtc.DashboardModules.App",
-        "projectPath": "C:\\Users\\Admin\\Documents\\QTC\\DashboardModules\\Qtc.DashboardModules\\Qtc.DashboardModules.App.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\QTC\\DashboardModules\\Qtc.DashboardModules\\obj\\",
+        "projectPath": "C:\\Users\\Jonathan\\source\\repos\\DashboardModules\\Qtc.DashboardModules\\Qtc.DashboardModules.App.csproj",
+        "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jonathan\\source\\repos\\DashboardModules\\Qtc.DashboardModules\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -47,6 +47,14 @@
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[3.21.90, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
             }
           },
           "imports": [
@@ -65,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
