@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Dashboard.Common.Interfaces;
-using Dashboard.Common.Models;
+using Dashboard.Common.DataModels;
 using Dashboard.Common.Modules;
 using Dashboard.Common.Options;
 using Dashboard.Common.Delegates;
@@ -29,7 +29,7 @@ namespace Dashboard.Modules.RHRP
             _configuration = config;
             _logger = logger;
 
-            _options = new BusinessServiceOptions();
+            //_options = new BusinessServiceOptions();
 
             //TODO:Fix this to get data from config
             //_configuration.GetSection(BusinessServiceOptions.Client).Bind(_options);

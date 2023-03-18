@@ -1,15 +1,28 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
+using Dashboard.Common.DataModels;
 using Dashboard.Common.Interfaces;
-using Dashboard.Common.Models;
+using Dashboard.Common.Modules;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using Oracle.ManagedDataAccess.Client;
-
 namespace Dashboard.Modules.RHRP
 {
+
     public class ErrorTypeModule : IErrorTypeModule
     {
-        public SqlConnection connection = new SqlConnection("Server=tcp:qtcstudents2022.database.windows.net,1433;Initial Catalog=DashboardDatabase;Persist Security Info=False;User ID=qtcUser;Password=#Classof2023;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
-        public OracleConnection conn = new OracleConnection("Data Source = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.us-sanjose-1.oraclecloud.com))(connect_data=(service_name=g8243a756b1194c_y6lsus3vet9k1ffq_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes))); User Id = ADMIN; password=#Classof2023;");
+        private readonly IConfiguration _configuration;
+        private readonly ILogger<ErrorTypeModule> _logger;
+
+        public ErrorTypeModule(ILogger<ErrorTypeModule> logger, IConfiguration config)
+        {
+            _configuration = config;
+            _logger = logger;
+
+        }
+
+        private SqlConnection connection = new SqlConnection("Server=tcp:qtcstudents2022.database.windows.net,1433;Initial Catalog=DashboardDatabase;Persist Security Info=False;User ID=qtcUser;Password=#Classof2023;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+        private OracleConnection conn = new OracleConnection("Data Source = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.us-sanjose-1.oraclecloud.com))(connect_data=(service_name=g8243a756b1194c_y6lsus3vet9k1ffq_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes))); User Id = ADMIN; password=#Classof2023;");
 
         public List<Errors> GetData(string integrationPoint)
         {
