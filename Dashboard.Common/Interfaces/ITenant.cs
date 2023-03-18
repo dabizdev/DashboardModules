@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Dashboard.Common.DataModels;
 using Dashboard.Common.Modules;
 
 namespace Dashboard.Common.Interfaces
@@ -11,6 +12,6 @@ namespace Dashboard.Common.Interfaces
     {
         public string Name { get; }
 
-        IErrorTypeModule GetErrorTypeProcessor();
+       IErrorTypeModule GetErrorTypeProcessor();
     }
 }
