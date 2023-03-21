@@ -1,24 +1,47 @@
 ﻿using System.Data;
-using System.Data.SqlClient;
 using Dashboard.Common.DataModels;
 using Dashboard.Common.Interfaces;
 using Dashboard.Common.Modules;
+using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Oracle.ManagedDataAccess.Client;
 namespace Dashboard.Modules.RHRP
 {
-
+    [DashboardModule(Name = "Error Type Module", Lob = "RHRP")]
     public class ErrorTypeModule : IErrorTypeModule
     {
         private readonly IConfiguration _configuration;
         private readonly ILogger<ErrorTypeModule> _logger;
+        private readonly IServiceProvider _provider;
 
+        // constructor
         public ErrorTypeModule(ILogger<ErrorTypeModule> logger, IConfiguration config)
         {
             _configuration = config;
             _logger = logger;
 
+            _provider = BuildServices();
+        }
+        private IServiceProvider BuildServices()
+        {
+            var services = new ServiceCollection();
+
+            //services.AddDbContext<CommercialDbContext>(options =>
+            //    options.UseSqlServer(_configuration.GetConnectionString(_configuration.GetValue<string>("ClientSettings:Organization"))));
+
+            services.AddLogging();
+
+            //services.AddScoped<ILayout, LayoutManager>();
+
+            services.Scan(scan => scan.FromCallingAssembly()
+                .AddClasses(c => c.AssignableTo<IErrorTypeModule>(), publicOnly: true)
+                .AsImplementedInterfaces()
+                .WithTransientLifetime());
+
+
+            return services.BuildServiceProvider();
         }
 
         private SqlConnection connection = new SqlConnection("Server=tcp:qtcstudents2022.database.windows.net,1433;Initial Catalog=DashboardDatabase;Persist Security Info=False;User ID=qtcUser;Password=#Classof2023;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");

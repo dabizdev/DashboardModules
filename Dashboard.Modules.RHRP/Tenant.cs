@@ -49,7 +49,7 @@ namespace Dashboard.Modules.RHRP
             //services.AddScoped<ILayout, LayoutManager>();
 
             services.Scan(scan => scan.FromCallingAssembly()
-                .AddClasses(c => c.AssignableTo<IErrorTypeModule>(), publicOnly: true)
+                .AddClasses(c => c.AssignableTo<ITenant>(), publicOnly: true)
                 .AsImplementedInterfaces()
                 .WithTransientLifetime());
 

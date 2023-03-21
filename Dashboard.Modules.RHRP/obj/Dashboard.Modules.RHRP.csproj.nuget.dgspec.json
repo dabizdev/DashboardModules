@@ -40,13 +40,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
             "Oracle.ManagedDataAccess.Core": {
               "target": "Package",
               "version": "[3.21.90, )"
-            },
-            "System.Data.SqlClient": {
-              "target": "Package",
-              "version": "[4.8.5, )"
             }
           },
           "imports": [
@@ -109,9 +109,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[7.0.4, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -132,10 +136,6 @@
             "Scrutor.AspNetCore": {
               "target": "Package",
               "version": "[3.3.0, )"
-            },
-            "System.Data.SqlClient": {
-              "target": "Package",
-              "version": "[4.8.5, )"
             }
           },
           "imports": [
