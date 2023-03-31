@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Dashboard.Common.DataModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace Dashboard.Common.Modules
 {
     public interface IErrorTypeModule
     {
+        List<Errors> GetData(string integrationPoint);
     }
 }

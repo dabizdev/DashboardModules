@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\QTC\\DashboardModules\\Dashboard.Modules.RHRP\\Dashboard.Modules.RHRP.csproj": {}
+    "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Modules.RHRP\\Dashboard.Modules.RHRP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\QTC\\DashboardModules\\Dashboard.Common\\Dashboard.Common.csproj": {
+    "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Common\\Dashboard.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\QTC\\DashboardModules\\Dashboard.Common\\Dashboard.Common.csproj",
+        "projectUniqueName": "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Common\\Dashboard.Common.csproj",
         "projectName": "Dashboard.Common",
-        "projectPath": "C:\\Users\\Admin\\Documents\\QTC\\DashboardModules\\Dashboard.Common\\Dashboard.Common.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\QTC\\DashboardModules\\Dashboard.Common\\obj\\",
+        "projectPath": "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Common\\Dashboard.Common.csproj",
+        "packagesPath": "C:\\Users\\sefer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sefer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[3.21.90, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,21 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Admin\\Documents\\QTC\\DashboardModules\\Dashboard.Modules.RHRP\\Dashboard.Modules.RHRP.csproj": {
+    "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Modules.RHRP\\Dashboard.Modules.RHRP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\QTC\\DashboardModules\\Dashboard.Modules.RHRP\\Dashboard.Modules.RHRP.csproj",
+        "projectUniqueName": "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Modules.RHRP\\Dashboard.Modules.RHRP.csproj",
         "projectName": "Dashboard.Modules.RHRP",
-        "projectPath": "C:\\Users\\Admin\\Documents\\QTC\\DashboardModules\\Dashboard.Modules.RHRP\\Dashboard.Modules.RHRP.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\QTC\\DashboardModules\\Dashboard.Modules.RHRP\\obj\\",
+        "projectPath": "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Modules.RHRP\\Dashboard.Modules.RHRP.csproj",
+        "packagesPath": "C:\\Users\\sefer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Modules.RHRP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sefer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +89,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\Documents\\QTC\\DashboardModules\\Dashboard.Common\\Dashboard.Common.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Documents\\QTC\\DashboardModules\\Dashboard.Common\\Dashboard.Common.csproj"
+              "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Common\\Dashboard.Common.csproj": {
+                "projectPath": "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Common\\Dashboard.Common.csproj"
               }
             }
           }
@@ -99,6 +105,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.2, )"
@@ -114,6 +124,10 @@
             "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[3.21.90, )"
             },
             "Scrutor.AspNetCore": {
               "target": "Package",
@@ -136,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
