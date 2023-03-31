@@ -12,6 +12,6 @@ namespace Dashboard.Common.Interfaces
     {
         public string Name { get; }
 
-       IErrorTypeModule GetErrorTypeProcessor();
+        IErrorTypeModule GetErrorTypeProcessor();
     }
 }

@@ -13,18 +13,12 @@ namespace Dashboard.Modules.RHRP
         private readonly IConfiguration _configuration;
         private readonly ILogger<Tenant> _logger;
         private readonly IServiceProvider _provider;
-        private readonly BusinessServiceOptions _options;
         public string Name => typeof(Tenant).Namespace;
 
         public Tenant(ILogger<Tenant> logger, IConfiguration config)
         {
             _configuration = config;
             _logger = logger;
-
-           // _options = new BusinessServiceOptions();
-
-            //TODO:Fix this to get data from config
-            //_configuration.GetSection(BusinessServiceOptions.Client).Bind(_options);
 
             _provider = BuildServices();
         }
@@ -33,12 +27,7 @@ namespace Dashboard.Modules.RHRP
         {
             var services = new ServiceCollection();
 
-            //services.AddDbContext<CommercialDbContext>(options =>
-            //    options.UseSqlServer(_configuration.GetConnectionString(_configuration.GetValue<string>("ClientSettings:Organization"))));
-
             services.AddLogging();
-
-            //services.AddScoped<ILayout, LayoutManager>();
 
             services.Scan(scan => scan.FromCallingAssembly()
                 .AddClasses(c => c.AssignableTo<IErrorTypeModule>(), publicOnly: true)

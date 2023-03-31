@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jonathan\\source\\repos\\DashboardModules\\Dashboard.Modules.RHRP\\Dashboard.Modules.RHRP.csproj": {}
+    "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Modules.RHRP\\Dashboard.Modules.RHRP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jonathan\\source\\repos\\DashboardModules\\Dashboard.Common\\Dashboard.Common.csproj": {
+    "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Common\\Dashboard.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonathan\\source\\repos\\DashboardModules\\Dashboard.Common\\Dashboard.Common.csproj",
+        "projectUniqueName": "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Common\\Dashboard.Common.csproj",
         "projectName": "Dashboard.Common",
-        "projectPath": "C:\\Users\\Jonathan\\source\\repos\\DashboardModules\\Dashboard.Common\\Dashboard.Common.csproj",
-        "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonathan\\source\\repos\\DashboardModules\\Dashboard.Common\\obj\\",
+        "projectPath": "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Common\\Dashboard.Common.csproj",
+        "packagesPath": "C:\\Users\\sefer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sefer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,21 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jonathan\\source\\repos\\DashboardModules\\Dashboard.Modules.RHRP\\Dashboard.Modules.RHRP.csproj": {
+    "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Modules.RHRP\\Dashboard.Modules.RHRP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonathan\\source\\repos\\DashboardModules\\Dashboard.Modules.RHRP\\Dashboard.Modules.RHRP.csproj",
+        "projectUniqueName": "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Modules.RHRP\\Dashboard.Modules.RHRP.csproj",
         "projectName": "Dashboard.Modules.RHRP",
-        "projectPath": "C:\\Users\\Jonathan\\source\\repos\\DashboardModules\\Dashboard.Modules.RHRP\\Dashboard.Modules.RHRP.csproj",
-        "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonathan\\source\\repos\\DashboardModules\\Dashboard.Modules.RHRP\\obj\\",
+        "projectPath": "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Modules.RHRP\\Dashboard.Modules.RHRP.csproj",
+        "packagesPath": "C:\\Users\\sefer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Modules.RHRP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sefer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +89,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jonathan\\source\\repos\\DashboardModules\\Dashboard.Common\\Dashboard.Common.csproj": {
-                "projectPath": "C:\\Users\\Jonathan\\source\\repos\\DashboardModules\\Dashboard.Common\\Dashboard.Common.csproj"
+              "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Common\\Dashboard.Common.csproj": {
+                "projectPath": "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Dashboard.Common\\Dashboard.Common.csproj"
               }
             }
           }
@@ -150,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

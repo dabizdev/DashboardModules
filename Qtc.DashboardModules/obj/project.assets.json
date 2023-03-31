@@ -1021,19 +1021,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jonathan\\.nuget\\packages\\": {}
+    "C:\\Users\\sefer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jonathan\\source\\repos\\DashboardModules\\Qtc.DashboardModules\\Qtc.DashboardModules.App.csproj",
+      "projectUniqueName": "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Qtc.DashboardModules\\Qtc.DashboardModules.App.csproj",
       "projectName": "Qtc.DashboardModules.App",
-      "projectPath": "C:\\Users\\Jonathan\\source\\repos\\DashboardModules\\Qtc.DashboardModules\\Qtc.DashboardModules.App.csproj",
-      "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jonathan\\source\\repos\\DashboardModules\\Qtc.DashboardModules\\obj\\",
+      "projectPath": "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Qtc.DashboardModules\\Qtc.DashboardModules.App.csproj",
+      "packagesPath": "C:\\Users\\sefer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sefer\\source\\repos\\DashboardModules\\Qtc.DashboardModules\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sefer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1088,7 +1088,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
